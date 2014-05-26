@@ -5,7 +5,7 @@ nothing to commit, working directory clean
 如果状态不是这样，则需要通过提交、暂存等操作，使项目当前状态为clean。
 
 3. 添加Git@OSC的remote
-git remote add git-osc git@git.oschina.net:username/translate4j.git
+git remote add git-osc http://git.oschina.net/wish163/wishcodes.git
 
 4. 推送所有分支和tags
 git push git-osc --all
