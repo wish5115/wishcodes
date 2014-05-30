@@ -1,4 +1,4 @@
-1. 在Git@OSC上创建一个项目（http://git.oschina.net/projects/new 这里注意，不要勾选使用Readme初始化项目，不要选择项目的授权协议和.gitignore 文件，因为这些会导致项目有第一个提交。
+1. 在Git@OSC上创建一个项目( http://git.oschina.net/projects/new ) 这里注意，不要勾选使用Readme初始化项目，不要选择项目的授权协议和.gitignore 文件，因为这些会导致项目有第一个提交。
 
 2. 命令行进入项目目录，git status 确保项目状态为：<br>
 nothing to commit, working directory clean<br>
