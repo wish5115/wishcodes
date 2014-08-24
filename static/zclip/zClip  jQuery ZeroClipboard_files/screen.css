@@ -1,0 +1,173 @@
+@import url("http://www.steamdev.com/zclip/css/reset.css");
+
+body {background:url("http://www.steamdev.com/zclip/img/bg.gif") repeat 0 0 #ccc; font-family:Arial, Helvetica, sans-serif; color:#fff; font-weight:bold; }
+a, a:link, a:visited {color:#666; text-decoration:underline;
+text-shadow:none;
+-moz-text-shadow:none;
+-webkit-text-shadow:none;
+}
+a:hover, a.hover {text-decoration:none;}
+a.anchor{visibility: hidden;}
+.strike {text-decoration:line-through;}
+.fixed {color:green;}
+.right {float:right !important;}
+.left {float:left !important;}
+.page-width {width:900px; overflow:hidden; margin:10px auto;}
+.header ul {display:block; width:100%; overflow:hidden; clear:both;}
+.header li {float:left; display:inline-block; padding:0 22px 0 20px;}
+.header .logo {margin-right:5px;}
+.header .logo h4 {font-size:14px;text-align:center;}
+.header .bdr {background:url("http://www.steamdev.com/zclip/img/divider-v.gif") repeat-y right 0;}
+.header .lnk {padding-top:5px; padding-bottom:5px; margin-top:25px;}
+.header a, .header a:link, .header a:visited, h1 {color:#fff; text-decoration:none; font-size:24px; vertical-align:middle;
+text-shadow:1px 1px 3px #333;
+-moz-text-shadow:1px 1px 3px #333;
+-webkit-text-shadow:1px 1px 3px #333;
+}
+.header a:hover {text-decoration:underline;}
+.header .pwr {float:right; text-align:center;}
+.header h5 {font-size:12px; margin:10px 0 3px;}
+.social{float:right; margin-bottom:15px; margin-top:0px; display:block; overflow:hidden; height:35px; width:260px;}
+.sect {clear:both; display:block; overflow:hidden; padding-bottom:25px; margin-bottom:25px; background:url("http://www.steamdev.com/zclip/img/divider-h.gif") repeat-x 0 bottom;}
+.notice {line-height:20px; padding:20px; margin-bottom:15px; background:#ccc; color:#666; border:4px solid #666; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; position:relative;}
+.notice h3 {color:#fff; display:block; margin-bottom:10px; text-decoration:underline; }
+.notice .close {position:absolute; top:7px; right:10px;}
+.notice .date {position:absolute; bottom:7px; right:10px; color:#fff; font-size:12px;}
+p {line-height:1.4em; margin-bottom:15px; clear:both;}
+p, li, h2, h3, h4, h5, h6 {
+text-shadow:1px 1px 1px #555;
+-moz-text-shadow:1px 1px 1px #555;
+-webkit-text-shadow:1px 1px 1px #555;
+}
+h1 {background:url("http://www.steamdev.com/zclip/img/bullet.png") no-repeat 0 6px; font-size:32px; margin-bottom:20px; padding-left:30px;}
+ul.features {width:50%; float:left;}
+ul.features li {display:block; margin-bottom:15px; line-height:1.2em; margin-left:30px; padding-left:25px; background:url("http://www.steamdev.com/zclip/img/bullet-sm.png") no-repeat 0 3px;}
+div.try {width:45%; float:right;}
+.try textarea {display:block; width:375px; padding:10px; margin:15px 0; height:75px;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+}
+.try #text-to-copy {border:4px solid #666; margin-top:0;}
+.try #copy-button {width:110px; height:50px; background:url("http://www.steamdev.com/zclip/img/button.png") no-repeat 0 0; display:block; overflow:hidden; color:#fff; text-decoration:none; text-indent:27px; line-height:43px; vertical-align:middle; margin:0 auto;}
+.try #copy-button:hover, .try #copy-button.hover {color:#CCC;}
+.try #copy-button:active, .try #copy-button.active {color:#333;}
+
+.dl {width:215px; height:65px; background:url("http://www.steamdev.com/zclip/img/dl-block.png") no-repeat 0 0; padding:10px; float:left; margin-right:20px;}
+.dl h6 {font-size:12px; margin-bottom:10px;}
+.dl a {color:#fff;display:inline-block;padding-left:15px;
+text-shadow:1px 1px 3px #333;
+-moz-text-shadow:1px 1px 3px #333;
+-webkit-text-shadow:1px 1px 3px #333;
+}
+.dl span {font-size:12px; font-weight:normal;}
+
+.usage p {margin:10px 0;}
+
+#callback-paragraph { width:75%; padding:15px;
+border:4px solid #fff;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+text-shadow:1px 1px 1px #000;
+-moz-text-shadow:1px 1px 1px #000;
+-webkit-text-shadow:1px 1px 1px #000;
+}
+
+.check {display:none; margin-left:5px; margin-bottom:-5px;}
+
+table {border:3px solid #fff;}
+table td, table th {padding:10px; font-size:14px; border:1px solid #fff;}
+table h4 {font-size:20px;}
+table h5 {font-size:16px;}
+
+table#feedback {border:0 none;}
+#feedback table {border:0 none;}
+#feedback td, #feedback th {padding:0 0 10px; font-size:12px; border:0 none;}
+
+#feedback .txt, #feedback .txta {
+width: 340px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+padding:2px 5px;
+border:0 none;
+}
+
+#feedback .num {
+width:25px;
+text-align:center;
+}
+
+
+#feedback .txt {height:23px;}
+#feedback .txta {height:150px; font-family:Arial, Helvetica, sans-serif;}
+#feedback .submit {border:0 none; background:url("http://www.steamdev.com/zclip/img/submit.png") no-repeat 0 0 transparent; width:110px; height:50px; cursor:pointer; vertical-align:middle;}
+#feedback p {font-size:14px;}
+.err-msg {color:red;}
+#feedback p.right {margin:0;}
+
+#feedback p.comment {background:transparent; padding:10px; border:1px dashed #fff;}
+#feedback .success {background:#bbb; padding:15px; font-weight:normal; border:1px solid #fff;}
+#feedback .success p {font-weight:normal;}
+
+.mycounter {display:inline-block; font-size:12px; margin-left:25px;}
+.red {color:red;}
+
+
+.footer {margin-bottom:0; background:none;}
+.footer ul {padding:0;margin:0;}
+.footer ul li {list-style:none; float:left; margin-right:15px;}
+.footer ul li.last-child{background:none;}
+.footer ul.right {font-size:12px;}
+
+
+
+
+
+
+
+
+.sh_print{background:none; padding:0; margin:0; border:0 none;}.sh_print .sh_sourceCode{background-color:#fff;color:#000;font-weight:normal;font-style:normal;}.sh_print .sh_sourceCode .sh_keyword{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_type{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_string{color:#000;font-weight:normal;font-style:normal;}.sh_print .sh_sourceCode .sh_regexp{color:#000;font-weight:normal;font-style:normal;}.sh_print .sh_sourceCode .sh_specialchar{color:#000;font-weight:normal;font-style:normal;}.sh_print .sh_sourceCode .sh_comment{color:#666;font-weight:normal;font-style:italic;}.sh_print .sh_sourceCode .sh_number{color:#000;font-weight:normal;font-style:normal;}.sh_print .sh_sourceCode .sh_preproc{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_symbol{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_cbracket{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_url{color:#000;font-weight:normal;font-style:normal;}.sh_print .sh_sourceCode .sh_date{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_time{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_file{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_ip{color:#000;font-weight:normal;font-style:normal;}.sh_print .sh_sourceCode .sh_name{color:#000;font-weight:normal;font-style:normal;}.sh_print .sh_sourceCode .sh_variable{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_oldfile{color:#000;font-weight:normal;font-style:normal;}.sh_print .sh_sourceCode .sh_newfile{color:#000;font-weight:normal;font-style:normal;}.sh_print .sh_sourceCode .sh_difflines{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_selector{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_property{color:#000;font-weight:bold;font-style:normal;}.sh_print .sh_sourceCode .sh_value{color:#000;font-weight:normal;font-style:normal;}
+
+
+.snippet-wrap {position:relative; width:97%;}
+.snippet-wrap li { text-shadow:none; -moz-text-shadow:none; -webkit-text-shadow:none;}
+*:first-child+html .snippet-wrap {display:inline-block;}
+* html .snippet-wrap {display:inline-block;}
+.snippet-reveal{text-decoration:underline;}
+.snippet-wrap .snippet-menu, .snippet-wrap .snippet-hide {position:absolute; top:10px; right:15px; font-size:.9em;z-index:1;background-color:transparent;}
+.snippet-wrap .snippet-hide {top:auto; bottom:10px;}
+*:first-child+html .snippet-wrap .snippet-hide {bottom:25px;}
+* html .snippet-wrap .snippet-hide {bottom:25px;}
+.snippet-wrap .snippet-menu pre, .snippet-wrap .snippet-hide pre {background-color:transparent; margin:0; padding:0;}
+.snippet-wrap .snippet-menu a, .snippet-wrap .snippet-hide a {padding:0 5px; text-decoration:underline;}
+.snippet-wrap pre.sh_sourceCode{padding:1em;line-height:1.8em;overflow:auto;position:relative;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+box-shadow: 2px 2px 5px #000;
+-moz-box-shadow: 2px 2px 5px #000;
+-webkit-box-shadow: 2px 2px 5px #000;}
+.snippet-wrap pre.snippet-textonly {padding:2em;}
+*:first-child+html .snippet-wrap pre.snippet-formatted {padding:2em 1em;}
+* html .snippet-wrap pre.snippet-formatted {padding:2em 1em;}
+.snippet-reveal pre.sh_sourceCode {padding:.5em 1em; text-align:right;}
+.snippet-wrap .snippet-num li{padding-left:1.5em;}
+.snippet-wrap .snippet-no-num{list-style:none; padding:.6em 1em; margin:0;}
+.snippet-wrap .snippet-no-num li {list-style:none; padding-left:0;}
+.snippet-wrap .snippet-num {margin:1em 0 1em 1em; padding-left:3em;}
+.snippet-wrap .snippet-num li {list-style:decimal-leading-zero outside none;}
+.snippet-wrap .snippet-no-num li.box {padding:0 6px; margin-left:-6px;}
+.snippet-wrap .snippet-num li.box {border:1px solid; list-style-position:inside; margin-left:-3em; padding-left:6px;}
+*:first-child+html .snippet-wrap .snippet-num li.box {margin-left:-2.4em;}
+* html .snippet-wrap .snippet-num li.box {margin-left:-2.4em;}
+.snippet-wrap li.box-top {border-width:1px 1px 0 !important;}
+.snippet-wrap li.box-bot {border-width:0 1px 1px !important;}
+.snippet-wrap li.box-mid {border-width:0 1px !important;}
+.snippet-wrap .snippet-num li .box-sp {width:18px; display:inline-block;}
+*:first-child+html .snippet-wrap .snippet-num li .box-sp {width:27px;}
+* html .snippet-wrap .snippet-num li .box-sp {width:27px;}
+.snippet-wrap .snippet-no-num li.box {border:1px solid;}
+.snippet-wrap .snippet-no-num li .box-sp {display:none;}
+
